@@ -9,6 +9,25 @@ export default function Certificates() {
       title: "Microsoft AZ-100",
       description: "Microsoft Certified: Azure Administrator Associate",
       link: "/certificate/DhruvKaushik_certificate.pdf"
+    },
+    {
+      title: "100_day Python Bootcamp",
+      description: "Comprehensive Python training program on Unstop platform",
+      link: " https://lnkd.in/ebmwWAKR"
+    },
+    {
+      title: "Python",
+      description: "Popular programming language for web development and data science.",
+      certificates: [
+        { name: "React Fundamentals", link: "https://www.hackerrank.com/certificates/fd2bbeffe995" }
+      ],
+    },
+    {
+      title: "Problem Solving (Intermediate)",
+      description: "Ability to solve complex problems using programming.",
+      certificates: [
+        { name: "JavaScript Advanced", link: "https://www.hackerrank.com/certificates/a4ae8fab05b1"}
+      ],
     }
   ];
 
