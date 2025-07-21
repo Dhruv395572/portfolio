@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,7 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# portfolio
-This portfolio is a full-stack web application built using the MERN Stack — MongoDB, Express.js, React.js, and Node.js. It is designed to showcase my skills, projects, certifications, and professional journey in a modern and interactive format.
->>>>>>> d9bb01671a02d549fde912a7298fd569ef02ac52
