@@ -9,21 +9,21 @@ export default function Projects() {
       description:
         "An advanced AI Voice Assistant built with Python. Responds to voice commands, performs automated tasks, and provides real-time assistance. Integrated with SpeechRecognition, Pyttsx3, and web automation.",
       techStack: ["Python", "SpeechRecognition", "Pyttsx3"],
-      githubLink: "https://github.com/yourusername/voice-assistant",
+      githubLink: "https://github.com/Dhruv395572/jarvis",
     },
     {
       title: "Card Swapping Game",
       description:
         "An interactive and fun card swapping game using HTML, CSS, and JavaScript. Smooth animations, beautiful transitions, and engaging gameplay for web browsers.",
       techStack: ["HTML", "CSS", "JavaScript"],
-      githubLink: "https://github.com/yourusername/card-swapping-game",
+      githubLink: "https://github.com/Dhruv395572/Card-game-",
     },
     {
       title: "E-Commerce Website",
       description:
         "Fully functional E-Commerce website with modern UI/UX. Includes cart, checkout, product filtering, responsive design and payment gateway integration.",
       techStack: ["HTML", "CSS", "JavaScript"],
-      githubLink: "https://github.com/yourusername/e-commerce-site",
+      githubLink: "https://github.com/Dhruv395572/E-commerce-Website",
     },
   ];
 
