@@ -1,7 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import { FaGithub, FaLinkedin,  FaFileAlt,  FaHackerrank } from "react-icons/fa";
-
+import { FaGithub, FaLinkedin, FaFileAlt, FaHackerrank } from "react-icons/fa";
 import useInViewAnimation from "../hooks/useInViewAnimation";
 
 export default function Contact() {
@@ -26,7 +25,6 @@ export default function Contact() {
         : "https://portfolio-backend-qzya.onrender.com/api/contact";
 
       await axios.post(API_URL, formData);
-
       alert("Message sent successfully!");
       setFormData({ name: "", email: "", subject: "", message: "" });
     } catch (err) {
@@ -94,25 +92,22 @@ export default function Contact() {
             <h3>Contact Info</h3>
             <p><strong>Email:</strong> dhruvkaushik2810@gmail.com</p>
             <p><strong>Location:</strong> Mathura, India</p>
-            {/* <p><strong>Working Hours:</strong> Mon - Fri: 09:00 - 18:00</p> */}
           </div>
 
           <div className="social-links">
-             <a href="https://github.com/Dhruv395572" target="_blank" rel="noreferrer">
-                 <FaGithub size={24} />
-             </a>
-             <a href="https://www.linkedin.com/in/dhruvkaushik2810/" target="_blank" rel="noreferrer">
-                 <FaLinkedin size={24} />
-             </a>
-             <a href="https://www.hackerrank.com/profile/Dhruv_kaushik" target="_blank" rel="noreferrer">
-                  <FaHackerrank size={24} />
-             </a>
-             
-             <a href="/resume.pdf" target="_blank" rel="noreferrer">
-                  <FaFileAlt size={24} />
-             </a>
-</div>
-
+            <a href="https://github.com/Dhruv395572" target="_blank" rel="noreferrer">
+              <FaGithub size={24} />
+            </a>
+            <a href="https://www.linkedin.com/in/dhruvkaushik2810/" target="_blank" rel="noreferrer">
+              <FaLinkedin size={24} />
+            </a>
+            <a href="https://www.hackerrank.com/profile/Dhruv_kaushik" target="_blank" rel="noreferrer">
+              <FaHackerrank size={24} />
+            </a>
+            <a href="/resume.pdf" target="_blank" rel="noreferrer">
+              <FaFileAlt size={24} />
+            </a>
+          </div>
         </div>
       </div>
     </section>
