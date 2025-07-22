@@ -6,7 +6,7 @@ export default function Certificates() {
 
   const certificates = [
     {
-      title: "Microsoft AZ-100",
+      title: "Microsoft AZ-900",
       description: "Microsoft Certified: Azure Administrator Associate",
       link: "/certificate/DhruvKaushik_certificate.pdf"
     },
