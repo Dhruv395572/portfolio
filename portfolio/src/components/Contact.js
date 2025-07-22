@@ -23,7 +23,7 @@ export default function Contact() {
     try {
       const API_URL = process.env.NODE_ENV === "development"
         ? "http://localhost:5000/api/contact"
-        : "https://portfolio-backend-cbwj.onrender.com/api/contact";
+        : "https://portfolio-backend-qzya.onrender.com";
 
       await axios.post(API_URL, formData);
 
