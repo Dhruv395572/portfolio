@@ -1,8 +1,8 @@
 import React from "react";
-import useInViewAnimation from "../hooks/useInViewAnimation"; // 👈 Hook import
+import useInViewAnimation from "../hooks/useInViewAnimation"; 
 
 export default function Certificates() {
-  const sectionRef = useInViewAnimation(); // 👈 Hook use
+  const sectionRef = useInViewAnimation(); 
 
   const certificates = [
     {
@@ -13,19 +13,19 @@ export default function Certificates() {
     {
       title: "100_day Python Bootcamp",
       description: "Comprehensive Python training program on Unstop platform",
-      link: " https://lnkd.in/ebmwWAKR"
+      link: "https://lnkd.in/ebmwWAKR"
     },
 
     
     {
       title: "Python",
       description: "Popular programming language for web development and data science.",
-      link: " https://www.hackerrank.com/certificates/fd2bbeffe995"
+      link: "https://www.hackerrank.com/certificates/fd2bbeffe995"
     },
     {
       title: "Problem Solving (Intermediate)",
       description: "Ability to solve complex problems using programming.",
-      link: " https://www.hackerrank.com/certificates/a4ae8fab05b1"
+      link: "https://www.hackerrank.com/certificates/a4ae8fab05b1"
     },
   ];
 
