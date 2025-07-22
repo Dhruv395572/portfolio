@@ -39,7 +39,7 @@ export default function Herosection() {
 
         <button className="cta-btn" onClick={() => {
         document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
-        }}>Contect Me</button>
+        }}>Contact Me</button>
 
         <div className="social-links">
           <a href="https://www.linkedin.com/in/dhruvkaushik2810" target="_blank" rel="noopener noreferrer">
