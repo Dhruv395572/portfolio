@@ -21,7 +21,12 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/api/contact", formData);
+      const API_URL = process.env.NODE_ENV === "development"
+        ? "http://localhost:5000/api/contact"
+        : "https://portfolio-backend-cbwj.onrender.com/api/contact";
+
+      await axios.post(API_URL, formData);
+
       alert("Message sent successfully!");
       setFormData({ name: "", email: "", subject: "", message: "" });
     } catch (err) {
